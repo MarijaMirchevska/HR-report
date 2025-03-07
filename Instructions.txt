@@ -1,0 +1,54 @@
+Department:
+In your department report page, you need to visualize following: Total Employees (total number of employees), Actives (how many are active), Separations (how many are no longer active), Turnover Ratio % ( percentage between active and separations).
+Number of employees by gender, 
+Trend (by time) of actives and separations, 
+Employees by department and position, ( you should be able to drilldown to department/position )
+Number of employee count trend and forecast for 2 years.
+You should be able to filter by department, year, quarter&year
+Note:* For trends by time you should be able to drilldown to Year, Quarter&Year, Month
+
+Actives:
+In your Active report page, you need to visualize following: 
+Actives by Department,
+Actives by Marital Status,
+Actives by Position,
+Actives by Sex,
+Actives, Actives Last Year, Employee year over year variance %
+You should be able to filter by year, quarter&year
+Note:* Employee year over year variance (number of actives between current and previous year)
+For trends by time you should be able to drilldown to Year, Quarter&Year, Month&Year
+
+Separations:
+In your Separations report page, you need to visualize following: 
+Separations by Marital Status,
+Separations by Position,
+Separations by Sex,
+Separations by Reason,
+Separations, Separations Last Year, Separations year over year variance %
+You should be able to filter by year, quarter&year
+Note:* Separations year over year variance (number of separations between current and previous year)
+For trends by time you should be able to drilldown to Year, Quarter&Year, Month&Year
+For calculation of separation consider to use the column with DateOfTermination.
+
+
+Recruitment:
+In your Recruitment report page, you need to visualize following:
+Average salary by position, 
+Top 5 recruitment sources by all employees,
+Top 5 recruitment source by actives
+Top 5 recruitment source by separations 
+
+You should be able to filter by year, quarter&year
+
+
+
+Data Model:
+Before you start writing your measures and designing your report you should create your data model. 
+
+Designing Report Consideration:
+While you are building all report pages you need to try to pick best visualizations which will present your data best. 
+Data analysis should start from Year 2012.
+You can add Home page from where you can navigate to all different pages, also you can add navigation buttons from where you can go back, forward and to your Home page.
+Feel free to add more pages where you will visualize other information that might be useful to have in your BI solution.
+
+
